@@ -1,0 +1,82 @@
+* {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#canvas2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#start,
+#gameOver {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(224, 241, 251); */
+
+    background: url('images/SnowPattern.jpg');
+    background-repeat: repeat;
+    background-size: 100%, 100%;
+}
+
+#parentcontainer {
+    height: 500px;
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('images/scroll.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.childcontainer {
+    height: 200px;
+    width: 400px;
+    margin-left: 15px;
+    align-self: center;
+    text-align: center;
+}
+
+
+#playAgainButton {
+    justify-self: end;
+}
+
+/* Button */
+button {
+    display: inline-block;
+    padding: 2px;
+    width: 120px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: rgb(190, 9, 9);
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #729098; */
+}
+
+button:hover {
+    background: rgb(13, 136, 138);
+}
+
+button:active {
+    background: rgb(47, 215, 218);
+    /* box-shadow: 0 5px #729098; */
+    /* transform: translateY(4px); */
+}
